@@ -1,0 +1,67 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #3498db;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+button {
+  background: #2980b9;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1c598a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-error {
+  border-color: #e74c3c;
+}
+
+.success {
+  color: #2ecc71;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #ecf0f1;
+  margin-top: 20px;
+}
